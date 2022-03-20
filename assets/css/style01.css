@@ -15,6 +15,7 @@ html, body {
     background-color: hsl(var(--hue), 100%, 20%);
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .jumbotron {
@@ -69,7 +70,7 @@ html, body {
 
 .logoImage {
     width: 195px;
-    height: 50px;
+    /* height: 50px; */
 }
 
 .nav-item {
@@ -86,7 +87,14 @@ html, body {
     border-color: #cccccc; */
 }
 .appLink {
-    color: #212121 !important;
+    color: #3f51b5 !important;
+    font-family: Verdana, "Geneva", sans-serif;;
+    color: #212121;
+    margin-left: 10px;
+    /* text-align: center; */
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    font-size: 18px;
 }
 
 .nav-link {
@@ -197,10 +205,20 @@ h5 {
     font-family: Verdana, "Geneva", sans-serif;;
     color: #212121;
     margin-left: 10px;
+    /* text-align: center; */
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    font-size: 18px;
+}
+
+h6 {
+    font-family: Verdana, "Geneva", sans-serif;;
+    color: #212121;
+    margin-left: 10px;
     text-align: center;
     /* padding-top: 20px; */
     /* padding-bottom: 20px; */
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .inputTextArea {
@@ -227,7 +245,7 @@ p {
     font-family: "Georgia", "Times New Roman", Times, serif;
     font-size: 15px;
     line-height: 100%;
-    color: #777777;
+    color: #212121;
     margin-bottom: 10px;
 }
 
@@ -244,18 +262,17 @@ hr {
     margin-bottom: -50px;
 }
 
-.footer,
 .push {
-    height: 50px;
+    height: -20px;
 }
 
 .footer {
     background: #212121;
-    margin: 0;
+    /* margin: 0; */
     text-align: center;
     font-size: 14px;
     padding: 10px 0px;
-    /* padding-bottom: 35px !important; */
+    padding-bottom: 35px !important;
     border-top: solid;
     border-width: 5px;
     border-color: #212121;
@@ -418,7 +435,7 @@ hr {
 
     .logoImage {
         width: 250px;
-        height: 60px;
+        /* height: 60px; */
     }
 
     /* The container width will be 576px */
@@ -460,7 +477,7 @@ hr {
 
     .logoImage {
         width: 300px;
-        height: 70px;
+        /* height: 70px; */
     }
 
     .form-group,
@@ -494,7 +511,7 @@ hr {
 
     .logoImage {
         width: 350px;
-        height: 80px;
+        /* height: 80px; */
     }
 
     .form-group,
@@ -528,7 +545,7 @@ hr {
 
     .logoImage {
         width: 400px;
-        height: 90px;
+        /* height: 90px; */
     }
 
     .form-group,
