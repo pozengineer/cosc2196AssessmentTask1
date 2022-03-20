@@ -39,7 +39,7 @@ This application was built using:
 - CSS: Style Sheet Language that allows the developer to style an HTML document
 - BootStrap: Library of HTML and CSS files and code https://getbootstrap.com/
 
-![Home tablet](./assets/images/portfolioMkIII01.jpg)
+![Home tablet](assets/images/updatedPortfolio01.jpg)
 ![Home responsive](assets/images/portfolioMkIII02.jpg)
 ![Projects tablet](assets/images/portfolioMkIII03.jpg)
 ![Modal tablet](assets/images/portfolioMkIII04.jpg)
